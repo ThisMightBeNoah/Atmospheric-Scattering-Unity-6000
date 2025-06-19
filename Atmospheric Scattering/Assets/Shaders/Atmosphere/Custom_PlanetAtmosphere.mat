@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_PlanetAtmosphere
+  m_Shader: {fileID: 4800000, guid: 493ba55c00ff71e458a671fc0fcb8439, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AdaptiveStepSize: 1
+    - _AlphaThreshold: 0.01
+    - _AtmosphereDensity: 0.03
+    - _AtmosphereHeight: 0.30744007
+    - _AtmosphereObjectPenetration: 0.3
+    - _AtmosphereThickness: 1.35
+    - _DaytimeScatteringMultiplier: 3
+    - _DaytimeSkyIntensity: 6.8
+    - _DensityFalloff: 0.94
+    - _DepthBias: 0.0001
+    - _DepthThreshold: 0.012
+    - _DitherStrength: 0.3
+    - _EdgeSoftening: 0.1
+    - _GrazingAngleReduction: 0.3
+    - _HorizonFalloff: 8
+    - _LimbDarkeningPower: 2
+    - _MaxStepSize: 0.05
+    - _MaxSteps: 256
+    - _MieAnisotropy: 0.643
+    - _MieScatteringCoeff: 0.5
+    - _MieScatteringFromSpace: 6.78
+    - _MinAlpha: 0.001
+    - _MinStepSize: 0.1
+    - _MinSteps: 128
+    - _NighttimeSkyIntensity: 0.481
+    - _PlanetRadius: 1.7080003
+    - _QualityLevel: 2
+    - _ScatteringPower: 3.31
+    - _ScatteringScale: 23.7
+    - _SceneBlendDistance: 10
+    - _SceneBlendSoftness: 2
+    - _SceneGeometryFadeRange: 24.5
+    - _SpaceVisibilityDaytime: 0.05
+    - _SpaceVisibilityNight: 0.9
+    - _SpaceVisibilityTransitionSharpness: 5
+    - _StepOptimizationDistance: 1000
+    - _SunFalloff: 20.9
+    - _SunIntensity: 37.3
+    - _SunriseTime: 6
+    - _SunsetStrength: 7.12
+    - _SunsetTime: 18
+    - _TimeOfDay: 12
+    - _ViewAngleFalloff: 3
+    m_Colors:
+    - _PlanetCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _RayleighScatteringCoeff: {r: 5.8, g: 13.5, b: 33.1, a: 0}
+    - _SunDaytimeColor: {r: 1, g: 1, b: 0.9, a: 1}
+    - _SunNightColor: {r: 0.2, g: 0.2, b: 0.5, a: 1}
+    - _SunPosition: {r: -172.1, g: 0, b: 0, a: 0}
+    - _SunSunriseColor: {r: 1, g: 0.5, b: 0.2, a: 1}
+    - _SunSunsetColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
