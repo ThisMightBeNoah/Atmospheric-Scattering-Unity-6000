@@ -1,4 +1,2 @@
-# Atmospheric-Scattering-Unity-6000
-Atmospheric Scattering for Unity Engine 6.2
-
+Hello, this is a little thingy I was working on from febuary 2025 to July.
 I probably wont fix any issues you report, I am going to redo this at some point in the future.
